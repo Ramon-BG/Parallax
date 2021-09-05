@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Parallax</title>
+	
+	<style type="text/css">
+
+
+		/* Configuração padrão da página
+		____________________________________*/
+		body,html {
+			margin: 0;
+			font: 16px "Lato", sans-serif;
+			color: #777;
+			height: 100%;
+		}
+
+		.conteudo {
+			color: #020258;
+			background-color:;
+			text-align: justify;
+			padding: 50px 80px;
+			opacity: 0.8;
+		}
+
+		h3 {
+			text-transform: uppercase;
+			color: #3C4348;
+			text-align: center;
+			box-shadow: 2px 3px 3px #113B4E;
+		}
+
+		p {
+			margin-bottom: 20px;
+		}
+
+		/* Efeito Parallax
+		______________________________________*/
+
+		.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6 {
+			position: relative;
+			height: 100%;
+			opacity: 0.8;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+		}
+
+		.caixa1 {
+			background-image: url(imagens/db.jpg);
+		}
+
+		.caixa2 {
+			background-image: url(imagens/tanjiro.jpg);
+		}
+
+		.caixa3 {
+			background-image: url(imagens/ol.jpg);
+		}
+
+		.caixa4 {
+			background-image: url(imagens/naruto.jpg);
+		}
+
+		.caixa5 {
+			background-image: url(imagens/op2.jpg);
+		}
+
+		.caixa6 {
+			background-image: url(imagens/fma.jpg);
+		}
+
+		.conteudo-titulo {
+
+			position: absolute;
+			left: 0%;
+			top: 45%;
+			width: 100%;
+			text-align: center;
+
+		}
+
+		.conteudo-titulo span.titulo {
+			color: #fff;
+			background-color: #111;
+			padding: 18px;
+			font-size: 25px;
+			letter-spacing: 5px;
+			text-transform: uppercase;
+			opacity: 0.65;
+			box-shadow: 4px 4px 4px 2px rgba(0.6, 0, 0.4, 0.6);
+		}
+
+
+	</style>
+
+</head>
+<body>
+	<div class="caixa1">
+		<div class="conteudo-titulo">
+			<span class="titulo"> Dragon Ball </span>
+		</div>
+	</div>
+<!--
+	<div class="conteudo">
+		<h3>Sobre Animes</h3>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec purus arcu, pulvinar in ex id, semper porta dui. Sed eleifend eu nisl sit amet congue. Mauris consectetur iaculis elementum. Fusce consequat ante vel pharetra rutrum. Quisque sed ligula est. Sed sit amet ipsum sit amet ante pretium egestas a id mauris. Suspendisse condimentum massa ac diam scelerisque sagittis. Nulla feugiat purus nec volutpat aliquet. Nam suscipit eget nibh ut placerat. Mauris hendrerit mauris et libero ultricies, at posuere nunc consequat. Aenean lobortis ultricies nulla, sit amet mollis felis auctor nec.
+		</p>
+
+		<p>
+			Ipsum dolor sit amet, consectetur adipiscing elit. Donec purus arcu, pulvinar in ex id, semper porta dui. Sed eleifend eu nisl sit amet congue. Mauris consectetur iaculis elementum. Fusce consequat ante vel pharetra rutrum. Quisque sed ligula est. Sed sit amet ipsum sit amet ante pretium egestas a id mauris. Suspendisse condimentum massa ac diam scelerisque sagittis. Nulla feugiat purus nec volutpat aliquet. Nam suscipit eget nibh ut placerat. Mauris hendrerit mauris et libero ultricies, at posuere nunc consequat. Aenean lobortis ultricies nulla, sit amet molli.
+		</p>
+
+	</div>
+-->
+
+	<div class="caixa2">
+		<div class="conteudo-titulo">
+			<span class="titulo">Kimetsu no Yaiba</span>
+		</div>
+	</div>
+
+<!--
+	<div class="conteudo">
+		<h3>Anime novo todo dia</h3> 
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec purus arcu, pulvinar in ex id, semper porta dui. Sed eleifend eu nisl sit amet congue. Mauris consectetur iaculis elementum. Fusce consequat ante vel pharetra rutrum.
+		</p>
+
+		<p>
+			Dolor sit amet, consectetur adipiscing elit. Donec purus arcu, pulvinar in ex id, semper porta dui. Sed eleifend eu nisl sit amet congue. Mauris consectetur iaculis elementum. Fusce consequat ante vel pharetra rutrum. Quisque sed ligula est. Sed sit amet ipsum sit amet ante pretium egestas a id. 
+		</p>
+-->
+
+	</div>
+
+	<div class="caixa3">
+		<div class="conteudo-titulo">
+			<span class="titulo"> Overlord </span>
+		</div>
+	</div>
+
+	<div class="caixa4">
+		<div class="conteudo-titulo">
+			<span class="titulo"> Naruto </span>
+		</div>
+	</div>
+
+	<div class="caixa5">
+		<div class="conteudo-titulo">
+			<span class="titulo"> One Piece </span>
+		</div>
+	</div>
+
+	<div class="caixa6">
+		<div class="conteudo-titulo">
+			<span class="titulo"> Fullmetal Alchemist </span>
+		</div>
+	</div>
+
+</body>
+</html>
